@@ -1,7 +1,40 @@
-<'hippoweb'='http://www.onehippo.org/hippoweb/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippoweb'='http://www.onehippo.org/hippoweb/nt/1.0'>
 
-[hippoweb:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[hippoweb:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[hippoweb:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[hippoweb:author] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:bannerdocument] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:blogpost] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:contentdocument] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:imageset] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
+[hippoweb:newsdocument] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:userprofile] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:staffuserprofile] > hippoweb:userprofile, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hippoweb:video] > hippoweb:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
 

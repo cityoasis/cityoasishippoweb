@@ -1,0 +1,337 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-video-folder": "new video folder",
+      "new-banner-document": "new banner document",
+      "new-hippoweb-imageset-image": "New Image",
+      "new-news-document": "new news item",
+      "new-content-document": "new content document",
+      "new-resource-bundle": "new resource bundle",
+      "new-video-document": "new video",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blog-document": "new blog post",
+      "new-content-folder": "new content folder",
+      "new-hippoweb-imageset-folder": "new folder",
+      "new-blog-folder": "new blog folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-video-folder": "nieuwe videomap",
+      "new-banner-document": "nieuwe banner",
+      "new-hippoweb-imageset-image": "Nieuwe Afbeelding",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-video-document": "nieuwe video",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-content-folder": "nieuwe contentmap",
+      "new-hippoweb-imageset-folder": "nieuwe map",
+      "new-blog-folder": "nieuwe banner map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-blogauthor-document": "nieuwe blog auteur"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-video-folder": "Neuer Video-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-hippoweb-imageset-image": "Neues Bild",
+      "new-news-document": "Neue News",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-video-document": "Neues Video",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-hippoweb-imageset-folder": "Neuer Ordner",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "es":     {
+      "new-hippoweb-imageset-image": "Nueva imagen",
+      "new-hippoweb-imageset-folder": "nueva carpeta"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-video-folder": "nouveau dossier vidéo",
+      "new-banner-document": "nouvelle bannière",
+      "new-hippoweb-imageset-image": "Nouvelle image",
+      "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-video-document": "nouvelle vidéo",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blog-document": "nouveau post blog",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-hippoweb-imageset-folder": "un nouveau dossier",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-blogauthor-document": "nouvel auteur blog"
+    },
+    "zh":     {
+      "new-hippoweb-imageset-image": "新图片",
+      "new-hippoweb-imageset-folder": "新文件夹"
+    }
+  },
+  "hippo:types":   {
+    "hippoweb:imageset": {},
+    "hippoweb:bannerdocument":     {
+      "en":       {
+        "hippoweb:title": "Title",
+        "hippoweb:content": "Content",
+        "hippoweb:image": "Image",
+        "jcr:name": "Banner",
+        "hippoweb:link": "Link"
+      },
+      "nl":       {
+        "hippoweb:title": "Titel",
+        "hippoweb:content": "Inhoud",
+        "hippoweb:image": "Afbeelding",
+        "jcr:name": "Banner",
+        "hippoweb:link": "Link"
+      },
+      "fr":       {
+        "hippoweb:title": "Titre",
+        "hippoweb:content": "Contenu",
+        "hippoweb:image": "Image",
+        "jcr:name": "Bannière",
+        "hippoweb:link": "Lien"
+      },
+      "de":       {
+        "hippoweb:title": "Titel",
+        "hippoweb:content": "Inhalt",
+        "hippoweb:image": "Abbildung",
+        "jcr:name": "Banner",
+        "hippoweb:link": "Link"
+      }
+    },
+    "hippoweb:newsdocument":     {
+      "en":       {
+        "hippoweb:title": "Title",
+        "hippoweb:location": "Location",
+        "hippoweb:content": "Content",
+        "hippoweb:introduction": "Introduction",
+        "hippoweb:image": "Image",
+        "jcr:name": "News Item",
+        "hippoweb:author": "Author",
+        "hippoweb:date": "Date",
+        "hippoweb:source": "Source"
+      },
+      "nl":       {
+        "hippoweb:title": "Titel",
+        "hippoweb:location": "Locatie",
+        "hippoweb:content": "Inhoud",
+        "hippoweb:introduction": "Introductie",
+        "hippoweb:image": "Afbeelding",
+        "jcr:name": "Nieuwsbericht",
+        "hippoweb:author": "Auteur",
+        "hippoweb:date": "Datum",
+        "hippoweb:source": "Bron"
+      },
+      "de":       {
+        "hippoweb:title": "Titel",
+        "hippoweb:location": "Standort",
+        "hippoweb:content": "Inhalt",
+        "hippoweb:introduction": "Einführung",
+        "jcr:name": "News",
+        "hippoweb:image": "Abbildung",
+        "hippoweb:author": "Verfasser",
+        "hippoweb:date": "Datum",
+        "hippoweb:source": "Quelle"
+      },
+      "fr":       {
+        "hippoweb:title": "Titre",
+        "hippoweb:location": "Lieu",
+        "hippoweb:content": "Contenu",
+        "hippoweb:introduction": "Introduction",
+        "jcr:name": "Message d'info",
+        "hippoweb:image": "Image",
+        "hippoweb:author": "Auteur",
+        "hippoweb:date": "Date",
+        "hippoweb:source": "Source"
+      }
+    },
+    "hippoweb:contentdocument":     {
+      "en":       {
+        "hippoweb:publicationdate": "Publication date",
+        "hippoweb:title": "Title",
+        "hippoweb:content": "Content",
+        "hippoweb:introduction": "Introduction",
+        "jcr:name": "Simple Document"
+      },
+      "nl":       {
+        "hippoweb:publicationdate": "Publicatiedatum",
+        "hippoweb:title": "Titel",
+        "hippoweb:content": "Inhoud",
+        "hippoweb:introduction": "Introductie",
+        "jcr:name": "Eenvoudig Document"
+      },
+      "fr":       {
+        "hippoweb:publicationdate": "Date de publication",
+        "hippoweb:title": "Titre",
+        "hippoweb:content": "Contenu",
+        "hippoweb:introduction": "Introduction",
+        "jcr:name": "Document simple"
+      },
+      "de":       {
+        "hippoweb:publicationdate": "Publikationsdatum",
+        "hippoweb:title": "Titel",
+        "hippoweb:content": "Inhalt",
+        "hippoweb:introduction": "Einführung",
+        "jcr:name": "Einfaches Dokument"
+      }
+    },
+    "hippoweb:video":     {
+      "en":       {
+        "hippoweb:title": "Title",
+        "jcr:name": "Video",
+        "hippoweb:description": "Description",
+        "hippoweb:link": "Video URL"
+      },
+      "nl":       {
+        "hippoweb:title": "Titel",
+        "jcr:name": "Video",
+        "hippoweb:description": "Beschrijving",
+        "hippoweb:link": "Video URL"
+      },
+      "fr":       {
+        "hippoweb:title": "Titre",
+        "jcr:name": "Vidéo",
+        "hippoweb:description": "Description",
+        "hippoweb:link": "URL vidéo"
+      },
+      "de":       {
+        "hippoweb:title": "Titel",
+        "jcr:name": "Video",
+        "hippoweb:description": "Beschreibung",
+        "hippoweb:link": "Video-URL"
+      }
+    },
+    "hippoweb:blogpost":     {
+      "en":       {
+        "hippoweb:categories": "Categories",
+        "hippoweb:title": "Title",
+        "hippoweb:publicationdate": "Publication Date",
+        "hippoweb:authors#hint": "Link to author document(s)",
+        "hippoweb:content": "Content",
+        "hippoweb:authors": "Author(s)",
+        "hippoweb:introduction": "Introduction",
+        "jcr:name": "Blogpost"
+      },
+      "nl":       {
+        "hippoweb:categories": "Categorieën",
+        "hippoweb:title": "Titel",
+        "hippoweb:publicationdate": "Publicatiedatum",
+        "hippoweb:authors#hint": "Link naar auteur document(en)",
+        "hippoweb:content": "Inhoud",
+        "hippoweb:authors": "Auteur(s)",
+        "hippoweb:introduction": "Introductie",
+        "jcr:name": "Blogpost"
+      },
+      "fr":       {
+        "hippoweb:categories": "Catégories",
+        "hippoweb:title": "Titre",
+        "hippoweb:publicationdate": "Date de publication",
+        "hippoweb:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "hippoweb:content": "Contenu",
+        "hippoweb:authors": "Auteur(s)",
+        "hippoweb:introduction": "Introduction",
+        "jcr:name": "Post blog"
+      },
+      "de":       {
+        "hippoweb:categories": "Kategorien",
+        "hippoweb:title": "Titel",
+        "hippoweb:publicationdate": "Publikationsdatum",
+        "hippoweb:authors#hint": "Link zu Verfasserdokument(en)",
+        "hippoweb:content": "Inhalt",
+        "hippoweb:authors": "Verfasser",
+        "hippoweb:introduction": "Einführung",
+        "jcr:name": "Blog-Post"
+      }
+    },
+    "hippoweb:author":     {
+      "en":       {
+        "hippoweb:content": "Description",
+        "hippoweb:photo": "Photo",
+        "hippoweb:accounts": "Accounts",
+        "jcr:name": "Author",
+        "hippoweb:content#hint": "Information about the author",
+        "hippoweb:accounts#hint": "External social media accounts",
+        "hippoweb:photo#hint": "Photo of the author",
+        "hippoweb:fullname#hint": "Full name",
+        "hippoweb:fullname": "Name",
+        "hippoweb:role": "Role"
+      },
+      "nl":       {
+        "hippoweb:content": "Beschrijving",
+        "hippoweb:photo": "Foto",
+        "hippoweb:accounts": "Accounts",
+        "jcr:name": "Auteur",
+        "hippoweb:content#hint": "Informatie over de auteur",
+        "hippoweb:accounts#hint": "Externe social media accounts",
+        "hippoweb:photo#hint": "Foto van de auteur",
+        "hippoweb:fullname#hint": "Volledige naam",
+        "hippoweb:fullname": "Naam",
+        "hippoweb:role": "Rol"
+      },
+      "fr":       {
+        "hippoweb:content": "Description",
+        "hippoweb:photo": "Photo",
+        "hippoweb:accounts": "Konten",
+        "jcr:name": "Auteur",
+        "hippoweb:content#hint": "Informations sur l'auteur",
+        "hippoweb:accounts#hint": "Comptes médias sociaux externes",
+        "hippoweb:photo#hint": "Photo de l'auteur",
+        "hippoweb:fullname#hint": "Nom complet",
+        "hippoweb:fullname": "Nom",
+        "hippoweb:role": "Rôle"
+      },
+      "de":       {
+        "hippoweb:content": "Beschreibung",
+        "hippoweb:photo": "Foto",
+        "hippoweb:accounts": "Comptes",
+        "jcr:name": "Verfasser",
+        "hippoweb:content#hint": "Informationen über den Verfasser",
+        "hippoweb:accounts#hint": "Externe Konten soziale Medien",
+        "hippoweb:photo#hint": "Foto des Verfassers",
+        "hippoweb:fullname#hint": "Vollständiger Name",
+        "hippoweb:fullname": "Name",
+        "hippoweb:role": "Rolle"
+      }
+    },
+    "hippoweb:account":     {
+      "en":       {
+        "hippoweb:link#hint": "External link to the account",
+        "hippoweb:type": "Type",
+        "jcr:name": "Account (Compound)",
+        "hippoweb:link": "Link"
+      },
+      "nl":       {
+        "hippoweb:link#hint": "Externe link naar het account",
+        "hippoweb:type": "Soort",
+        "jcr:name": "Account (Compound)",
+        "hippoweb:link": "Link"
+      },
+      "fr":       {
+        "hippoweb:link#hint": "Lien externe vers le compte",
+        "hippoweb:type": "Type",
+        "jcr:name": "Compte (Compound)",
+        "hippoweb:link": "Lien"
+      },
+      "de":       {
+        "hippoweb:link#hint": "Externer Link zum Konto",
+        "hippoweb:type": "Art",
+        "jcr:name": "Konto (Compound)",
+        "hippoweb:link": "Link"
+      }
+    }
+  }
+}
